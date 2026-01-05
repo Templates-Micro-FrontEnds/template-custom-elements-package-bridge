@@ -21,7 +21,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "tsc --noEmit",
-    "tag:new": "npm version patch && git push --tags"
+    "tag:new": "npm version patch && git push --tags && git push && git pull"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
