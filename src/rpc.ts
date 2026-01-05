@@ -84,7 +84,7 @@ export function createRpc(
             ...getMetaBase(),
             ts: Date.now(),
             traceId: env.meta?.traceId,
-            target: env.meta?.source, // resposta volta pro chamador (source)
+            target: env.meta?.source,
           },
         });
       } catch (e: any) {

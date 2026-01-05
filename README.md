@@ -23,8 +23,20 @@ npm i ../mfe-bridge
 ### Git (repo separado)
 
 ```bash
-npm i git+ssh://git@github.com:SEU_USER/mfe-bridge.git
+npm i @templates-micro-frontends/bridge
 ```
+
+### .npmrc global
+
+```bash
+@templates-micro-frontends:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=SEU_TOKEN
+always-auth=true
+```
+
+### SEU_TOKEN
+
+Gere um Token Classic no Github com as permissões de `read:package` e `write:package`.
 
 ---
 
