@@ -1,6 +1,6 @@
 {
   "name": "@templates-micro-frontends/bridge",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Framework-agnostic bridge for Micro Frontends using Custom Elements",
   "type": "module",
   "main": "dist/index.js",
