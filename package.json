@@ -1,6 +1,6 @@
 {
   "name": "@templates-micro-frontends/bridge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Framework-agnostic bridge for Micro Frontends using Custom Elements",
   "type": "module",
   "main": "dist/index.js",
@@ -20,7 +20,8 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "tag:new": "npm version patch && git push --tags"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
